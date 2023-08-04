@@ -6,7 +6,7 @@ class New {
             res = res + n;
         }
         return res;
-    }
+    } 
 }
 
 public class AnonymousArray {
