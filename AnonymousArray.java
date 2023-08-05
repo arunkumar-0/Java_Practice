@@ -11,7 +11,7 @@ class New {
 
 public class AnonymousArray {
     public static void main(String[] args) {
-        New obj = new New();
+        New1 obj = new New1();
         
         int result = obj.add(new int[] {3 , 4, 5 ,6 });
         System.out.println(result);
