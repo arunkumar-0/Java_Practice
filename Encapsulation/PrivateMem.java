@@ -20,6 +20,9 @@ public class PrivateMem {
         Student obj1 = new Student();
         obj.setData("ARUN");
         obj1.setData("ROHAN");
+
+        obj.setData1(19);
+        obj1.setData1(23);
         
         obj.show();
         obj1.show();
