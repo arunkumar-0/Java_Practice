@@ -1,7 +1,5 @@
 package Encapsulation;
 
-
-
 class Demo {
     private int age ;
     private String name ;
