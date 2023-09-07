@@ -32,5 +32,6 @@ public class Lec1 {
         Developer d = new Developer();
         Computer abc = new Dekstop();
         d.buildApp(abc);
+
     }
 }
