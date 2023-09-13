@@ -24,7 +24,13 @@ public class Cnstr1 {
         Demo1 obj = new Demo1();
         obj.show();
 
+        // System.out.println(obj);
         Demo1 obj1 = new Demo1(10, 15);
         obj1.show();
+        // if we print directly the obj1 then it will print the referance of that object
+        // so , to use it directly there is a toString method inside the object class
+        // which is parent class of every class we need to overrride that class in our
+        // class
+        // System.out.println(obj1);
     }
 }
