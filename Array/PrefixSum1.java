@@ -2,7 +2,7 @@ package Array;
 
 import java.util.Scanner;
 
-//optimised approach for finding any sum od sub matrix
+//optimised approach for finding any sum of sub matrix
 public class PrefixSum1 {
 
     public static void main(String[] args) {
@@ -27,8 +27,7 @@ public class PrefixSum1 {
         System.out.println("enter the row c2 ");
         int c2 = sc.nextInt();
 
-       
-        int result = sumRegion(arr , r1 , c1, r2, c2,);
-        
+        int result = sumRegion(arr, r1, c1, r2, c2);
+
     }
 }
