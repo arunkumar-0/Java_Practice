@@ -13,7 +13,7 @@ public class frame {
         jf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // close application on clicking the cross (X)
         jf.setResizable(false);
 
-        ImageIcon image = new ImageIcon("arun-kumar-logo.png");
+        ImageIcon image = new ImageIcon("logo.png");
         jf.setIconImage(image.getImage());// change icon of frame
 
         jf.getContentPane().setBackground(new Color(200, 150, 0));

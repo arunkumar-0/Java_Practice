@@ -66,12 +66,31 @@ public class Deletion {
         temp.next = temp.next.next;
     }
 
-    // reverse of a linked list
-    public void reverse(Node current_ptr, Node next_ptr, Node prev_ptr) {
+    // reverse of a linked list by iterative approach
+    public void reverse() {
+        Node current_ptr = head;
+        Node prev_ptr = null;
+        Node next_ptr = null;
+
         while (current_ptr != null) {
             next_ptr = current_ptr.next;
-
+            current_ptr.next = prev_ptr;
+            prev_ptr = current_ptr;
+            current_ptr = next_ptr;
         }
+        head = prev_ptr;
+    }
+
+    // reverse of a linked list using recursive approach
+    public void reverseRec(Node curr, Node prev) {
+        if (curr.next == null) {
+            head = curr;
+            curr.next = prev;
+            return;
+        }
+        Node nextPtr = curr.next;
+        curr.next = prev;
+        reverseRec(nextPtr, curr);
 
     }
 
@@ -90,7 +109,18 @@ public class Deletion {
         dl.insertion(90);
         dl.insertion(32);
         dl.show();
+        System.out.println();
+
         dl.deletion(2);
         dl.show();
+        System.out.println();
+
+        dl.reverse();
+        dl.show();
+        System.out.println();
+
+        dl.reverseRec(dl.head, null);
+        dl.show();
+
     }
 }
