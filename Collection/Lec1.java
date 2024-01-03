@@ -10,6 +10,7 @@ class Lec1 {
         al.add(200);
         al.add("Arun Kumar");
         al.add(23.45);
+
         System.out.println(al);
 
         ArrayList al1 = new ArrayList();
