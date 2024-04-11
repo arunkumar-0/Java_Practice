@@ -1,8 +1,7 @@
 package GUI;
 
-import javax.swing.ImageIcon;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
+import javax.swing.*;
+import java.awt.*;
 
 class Label1 {
     public static void main(String[] args) {

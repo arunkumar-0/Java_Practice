@@ -18,7 +18,7 @@ public class AlternateSum {
     }
 
     public static void main(String[] args) {
-        int num = 22;
+        int num = 21;
         int result = sumOfAlternate(num);
         System.out.println(result);
     }
